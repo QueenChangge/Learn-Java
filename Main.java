@@ -13,16 +13,18 @@ public class Main
     // System.out.println("My number is : " + x + z + a + c + d + y);
 
 
-    // SWAP TWO VARIABLES
-    String x = "water";
-    String y = "Kool-Aid";
-    String temp = null;
+    // // SWAP TWO VARIABLES
+    // String x = "water";
+    // String y = "Kool-Aid";
+    // String temp = null;
 
-    temp = x;
-    x = y;
-    y = temp;
+    // temp = x;
+    // x = y;
+    // y = temp;
 
-    System.out.println( "x: " + x);
-    System.out.println( "y: " + y);
+    // System.out.println( "x: " + x);
+    // System.out.println( "y: " + y);
+
+    
   } 
 } 

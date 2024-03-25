@@ -7,7 +7,7 @@ public class PPN2 {
 
         Double harga, produkKenaPPN;
 
-        System.out.println("Harga Produknya : ");
+        System.out.print("Harga Produknya : ");
         harga = input.nextDouble();
 
         System.out.println("Harga produk adalah "+ harga);

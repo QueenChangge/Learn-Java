@@ -4,7 +4,7 @@ public class Ekspedisi {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Berat total produk : ");
+        System.out.print("Berat total produk : ");
         Double beratProduk = input.nextDouble();
 
         int hargaOngkir;

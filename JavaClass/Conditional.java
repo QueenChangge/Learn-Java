@@ -4,7 +4,7 @@ public class Conditional {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
-        System.out.println("Harga Belanja : ");
+        System.out.print("Harga Belanja : ");
         double harga = input.nextDouble();
 
         if(harga > 100000){

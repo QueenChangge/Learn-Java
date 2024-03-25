@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Diskon {
     public static void main(String[] args) {
         Scanner input =  new Scanner(System.in);
-        System.out.println("Harga Belanjaan : ");
+        System.out.print("Harga Belanjaan : ");
         double hargaBelanja = input.nextDouble();
 
         double diskon;

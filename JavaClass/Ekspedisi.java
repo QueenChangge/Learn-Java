@@ -4,19 +4,21 @@ public class Ekspedisi {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        System.out.print("Berat total produk : ");
+        System.out.print("Berat total produk (kg) : ");
         Double beratProduk = input.nextDouble();
 
-        int hargaOngkir;
+        Double hargaOngkir;
         if(beratProduk > 1){
             beratProduk = beratProduk - 1;
-            double jumlahKali = (int) Math.floor(beratProduk) / 0.5;
-            hargaOngkir = 5000 + (int)(jumlahKali*4000);
+            Double pengurangBerat = beratProduk % 0.5;
+            Double sisaBerat = (beratProduk - pengurangBerat) / 0.5;
+            hargaOngkir = 5000 + (sisaBerat*4000);
         }else{
-            hargaOngkir = 0;
+            hargaOngkir = .0;
         }
 
-        System.out.println("Total harga ongkos kirim : Rp. "+ hargaOngkir);
+        System.out.println("Total ongkos kirim yang dibayarkan : "+ hargaOngkir);
+        
         
         
     }

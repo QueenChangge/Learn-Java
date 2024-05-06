@@ -1,4 +1,4 @@
-public class Deret2kurangsatu {
+public class Soal3 {
     public static void main(String[] args) {
         int base = 2;
         for (int i = 1; i <= 10; i++){

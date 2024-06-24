@@ -43,7 +43,7 @@ public class ganjilgenap {
 
         System.out.println("Faktor dari"+ bil1);
         for (int i : faktor1){
-            System.out.println();
+            System.out.println(i);
         }
     }
 }

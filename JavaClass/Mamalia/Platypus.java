@@ -1,6 +1,7 @@
 package Mamalia;
 
 public class Platypus extends Mamalia {
+    String warnaplaty;
     
     @Override 
     public void bersuara(){
@@ -9,6 +10,6 @@ public class Platypus extends Mamalia {
 
     @Override 
     public void makan(){
-        System.out.println(this.nama + " makan lil fish, lil worm");
+        System.out.println(this.nama + " makan lil fish, lil worm" + warnaplaty);
     }
 }

@@ -1,8 +1,9 @@
 package Mamalia;
 
-abstract public class Mamalia {
+public abstract class Mamalia {
     public String nama;
     public int usia;
+    String warna;
 
     public abstract void bersuara();
 

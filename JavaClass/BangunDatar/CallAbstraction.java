@@ -1,6 +1,6 @@
 package BangunDatar;
 
-public class PartPersegiPanjang{
+public class CallAbstraction{
     public static void main(String[] args) {
         PersegiPanjang pp = new PersegiPanjang();
         pp.panjang = 12;
